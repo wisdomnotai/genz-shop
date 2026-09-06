@@ -83,3 +83,28 @@ header h1{
     background-color:rgb(0, 0, 0);
     color:white;
 }
+.featured-products{
+    padding:50px 20px;
+    text-align:center;
+}
+.featured-products h2{
+    font-size:2rem;
+    margin-bottom:5px;
+}
+.featured-products p{
+    font-size:1.2rem;
+    margin-bottom:20px;
+    color:gray;
+}
+.product-grid{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+.product-grid img{
+    width:200px;
+    border-radius:10px;
+    height:200px;
+}
